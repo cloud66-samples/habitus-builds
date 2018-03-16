@@ -1,0 +1,11 @@
+build:
+  version: 2018-03-16
+  steps:
+    builder:
+      name: builder
+      dockerfile: Dockerfile
+      no_cache: true
+      secrets:
+        really_really_secret_stuff:
+          type: env
+          value: REALLY_REALLY_SECRET_STUFF
