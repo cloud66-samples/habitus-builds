@@ -1,0 +1,2 @@
+#!/bin/bash
+echo $STACK_BUILD_ENVIRONMENT_VARIABLE
