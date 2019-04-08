@@ -1,0 +1,11 @@
+build:
+  version: 2016-03-14
+  steps:
+    builder:
+      name: builder
+      dockerfile: Dockerfile.builder
+    deployment:
+      name: deployment
+      dockerfile: Dockerfile.clean_deployment
+      depends_on:
+      - builder
