@@ -1,0 +1,9 @@
+services:
+  web:
+    use_habitus: true
+    use_habitus_step: builder
+    habitus_filename: build.yml
+    git_url: https://github.com/cloud66-samples/habitus-builds.git
+    git_branch: test-environment-variables
+databases: []
+version: 2
