@@ -3,4 +3,4 @@ build:
   steps:
     builder:
       name: builder
-      dockerfile: Dockerfile
+      dockerfile: Dockerfile.build
