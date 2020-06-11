@@ -6,7 +6,7 @@ services:
     habitus_filename: build.yml
     git_url: https://github.com/cloud66-samples/habitus-builds.git
     git_branch: master
-    env:
+    env_vars:
       HABITUS_REALLY_REALLY_SECRET_STUFF: "space is big"
 databases: []
 version: 2
