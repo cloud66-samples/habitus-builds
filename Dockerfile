@@ -13,4 +13,4 @@ FROM base AS one
 FROM base AS two
 CMD ["sleep", "999999999"]
 
-FROM two AS final
+FROM $APP_NAME AS final
