@@ -1,3 +1,4 @@
+ARG APP_NAME
 FROM ubuntu:16.04 AS base
 RUN apt-get update
 RUN apt-get install curl -y
